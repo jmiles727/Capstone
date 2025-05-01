@@ -91,7 +91,7 @@ def analyze_beat_gestures(data_file, skip_rows=175, remove_last=150, prominence_
     return beat_gestures_df
 
 # Example Usage
-data_file = r"C:\Users\isabel\Desktop\TXT Files\Austin Full Speech Data.txt"
+data_file = r"C:\Austin Full Speech Data.txt"
 beat_gestures_df = analyze_beat_gestures(data_file, prominence_threshold=5)
 
 if beat_gestures_df is not None:
